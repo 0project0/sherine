@@ -18,8 +18,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const navLinks = document.querySelectorAll('.nav-link');
 
     if (mobileToggle && navMenu) {
-        mobileToggle.addEventListener('click', () => {
+        mobileToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
             navMenu.classList.toggle('open');
+            document.body.classList.toggle('nav-open');
             const icon = mobileToggle.querySelector('i');
             if (navMenu.classList.contains('open')) {
                 icon.classList.replace('fa-bars', 'fa-xmark');
@@ -32,9 +34,20 @@ document.addEventListener('DOMContentLoaded', () => {
         navLinks.forEach(link => {
             link.addEventListener('click', () => {
                 navMenu.classList.remove('open');
+                document.body.classList.remove('nav-open');
                 const icon = mobileToggle.querySelector('i');
                 icon.classList.replace('fa-xmark', 'fa-bars');
             });
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (navMenu.classList.contains('open') && header && !header.contains(e.target)) {
+                navMenu.classList.remove('open');
+                document.body.classList.remove('nav-open');
+                const icon = mobileToggle.querySelector('i');
+                icon.classList.replace('fa-xmark', 'fa-bars');
+            }
         });
     }
 
