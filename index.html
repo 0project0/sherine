@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>شيرين صديق | معرض أعمال وخدمات إبداعية متكاملة</title>
+    <meta name="description" content="موقع شيرين صديق لتقديم الخدمات الإبداعية المتكاملة: تصميم مواقع وتطبيقات موبايل، ألعاب تعليمية تفاعلية للأطفال، فيديوهات كرتونية وإنيميشن، وفيديوهات UGC تسويقية، وتصميم كتب الأطفال. تصفح أعمالي واطلب خدمتك الآن.">
+    <meta name="keywords" content="شيرين صديق, تصميم مواقع, تصميم تطبيقات, ألعاب تعليمية للأطفال, إنيميشن كرتوني, فيديوهات UGC, تصميم كتب أطفال, خمسات, مستقل">
+    <meta name="author" content="شيرين صديق">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="شيرين صديق | معرض أعمال وخدمات إبداعية متكاملة">
+    <meta property="og:description" content="موقع شيرين صديق لتقديم الخدمات الإبداعية المتكاملة: تصميم مواقع وتطبيقات موبايل، ألعاب تعليمية، رسوم متحركة، وفيديوهات UGC.">
+    <meta property="og:image" content="اغلفة الخدمات على خمسات/غلاف خدمة تصميم المواقع.png">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Stars Background Animation Wrapper -->
+    <div class="stars-container">
+        <div class="stars"></div>
+        <div class="stars2"></div>
+        <div class="stars3"></div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="#hero" id="logo-link">
+                    <img src="logo.png" alt="شيرين صديق" class="logo-img" onerror="this.style.display='none'; document.getElementById('logo-text').style.display='block';">
+                    <span id="logo-text" style="display: none;">شيرين <span>صديق</span></span>
+                </a>
+            </div>
+            
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#hero" class="nav-link active">الرئيسية</a></li>
+                    <li><a href="#services" class="nav-link">خدماتي</a></li>
+                    <li><a href="#portfolio" class="nav-link">معرض الأعمال</a></li>
+                    <li><a href="#testimonials" class="nav-link">آراء العملاء</a></li>
+                    <li><a href="#contact-section" class="nav-link">تواصل معي</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-cta">
+                <button class="btn btn-primary trigger-modal-btn" data-service="general" id="nav-cta-btn">اطلب خدمتك الآن</button>
+                <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-badge">مرحباً بك في عالمي الإبداعي</span>
+                    <h1 class="hero-title">أنا <span>شيرين صديق</span> <br> شريكتك في إخراج فكرتك بأبهى صورة</h1>
+                    <p class="hero-desc">خدمات إبداعية متكاملة: مواقع وتطبيقات، ألعاب تعليمية، فيديوهات كرتونية وUGC، وكتب أطفال — شغل احترافي يوصّل رسالتك.</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-gradient trigger-modal-btn" data-service="general" id="hero-order-btn">
+                            <i class="fa-solid fa-paper-plane"></i> ابدأ مشروعك الآن
+                        </button>
+                        <a href="#portfolio" class="btn btn-outline" id="hero-portfolio-btn">
+                            <i class="fa-solid fa-briefcase"></i> تصفح أعمالي
+                        </a>
+                    </div>
+                    <div class="hero-platforms">
+                        <span>حساباتي ومنصات العمل الحر:</span>
+                        <div class="platform-icons">
+                            <a href="https://khamsat.com/user/shereen_ahmed86" target="_blank" title="خمسات" class="platform-link" rel="noopener"><i class="fa-solid fa-shop"></i> خمسات</a>
+                            <a href="https://mostaql.com/u/shereen_ahmed86" target="_blank" title="مستقل" class="platform-link" rel="noopener"><i class="fa-solid fa-user-tie"></i> مستقل</a>
+                            <a href="https://www.instagram.com/shereensedik1/" target="_blank" title="انستجرام" class="platform-link" rel="noopener"><i class="fa-brands fa-instagram"></i> انستجرام</a>
+                            <a href="https://www.youtube.com/@Meswadda1" target="_blank" title="يوتيوب" class="platform-link" rel="noopener"><i class="fa-brands fa-youtube"></i> يوتيوب</a>
+                            <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=khamsatprojects@gmail.com" target="_blank" title="البريد الإلكتروني" class="platform-link" rel="noopener"><i class="fa-solid fa-envelope"></i> البريد</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="blob-wrapper">
+                        <div class="visual-blob"></div>
+                        <img src="logo.png" alt="شيرين صديق" class="hero-featured-image">
+                        <!-- Floating Micro Elements -->
+                        <div class="floating-element element-1"><i class="fa-solid fa-code"></i></div>
+                        <div class="floating-element element-2"><i class="fa-solid fa-gamepad"></i></div>
+                        <div class="floating-element element-3"><i class="fa-solid fa-clapperboard"></i></div>
+                        <div class="floating-element element-4"><i class="fa-solid fa-book-open"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="wave-divider">
+                <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z" fill="#0c0a1a"></path>
+                </svg>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-title">ماذا يمكنني أن أقدم لك؟</span>
+                    <h2 class="main-title">الخدمات الإبداعية الاحترافية</h2>
+                    <p class="section-desc">مجموعة متكاملة من الخدمات الرقمية والحلول الإبداعية المصممة بعناية فائقة لتساعدك على تحقيق أهدافك التجارية والتعليمية.</p>
+                </div>
+                
+                <div class="services-grid">
+                    <!-- Service 1: Web Design -->
+                    <div class="service-card" data-aos="fade-up">
+                        <div class="service-img-wrapper">
+                            <img src="اغلفة الخدمات على خمسات/غلاف خدمة تصميم المواقع.png" alt="تصميم وتطوير المواقع" class="service-img">
+                            <div class="service-icon-overlay"><i class="fa-solid fa-laptop-code"></i></div>
+                        </div>
+                        <div class="service-info">
+                            <h3>تصميم المواقع وصفحات الهبوط</h3>
+                            <p>تصميم صفحات هبوط ومواقع عصرية متكاملة وتفاعلية، متجاوبة مع كافة الشاشات، لتعكس هوية مشروعك وتجذب عملائك بكفاءة عالية وبأحدث التقنيات.</p>
+                            <div class="service-footer">
+                                <button class="btn btn-sm btn-gradient trigger-modal-btn" data-service="web" id="service-btn-web">طلب الخدمة <i class="fa-solid fa-chevron-left"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 2: Mobile Apps -->
+                    <div class="service-card" data-aos="fade-up">
+                        <div class="service-img-wrapper">
+                            <img src="صور للخدمات/صور خدمة التطبيقات تطبيق 1.png" alt="تصميم تطبيقات موبايل" class="service-img">
+                            <div class="service-icon-overlay"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                        </div>
+                        <div class="service-info">
+                            <h3>تصميم تطبيقات الموبايل UI/UX</h3>
+                            <p>تصميم واجهات تطبيقات الهواتف الذكية (iOS و Android) بأسلوب عصري، يركز على تجربة مستخدم سلسة وواجهات بصرية احترافية وجذابة تضمن رضا المستخدمين.</p>
+                            <div class="service-footer">
+                                <button class="btn btn-sm btn-gradient trigger-modal-btn" data-service="apps" id="service-btn-apps">طلب الخدمة <i class="fa-solid fa-chevron-left"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 3: Educational Games -->
+                    <div class="service-card" data-aos="fade-up">
+                        <div class="service-img-wrapper">
+                            <img src="اغلفة الخدمات على خمسات/غلاف خدمة الالعاب التعليمية.png" alt="ألعاب تعليمية تفاعلية" class="service-img">
+                            <div class="service-icon-overlay"><i class="fa-solid fa-gamepad"></i></div>
+                        </div>
+                        <div class="service-info">
+                            <h3>ألعاب تعليمية تفاعلية للأطفال</h3>
+                            <p>برمجة وتصميم ألعاب تعليمية تفاعلية بأسلوب شيق وممتع للأطفال، تدعم الأهداف التعليمية وتزيد من حماس الطفل وشغفه للتعلم والمشاركة والتجربة.</p>
+                            <div class="service-footer">
+                                <button class="btn btn-sm btn-gradient trigger-modal-btn" data-service="games" id="service-btn-games">طلب الخدمة <i class="fa-solid fa-chevron-left"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 4: Cartoon Videos -->
+                    <div class="service-card" data-aos="fade-up">
+                        <div class="service-img-wrapper">
+                            <img src="اغلفة الخدمات على خمسات/غلاف الفيديوهات.png" alt="إنتاج فيديوهات كرتونية" class="service-img">
+                            <div class="service-icon-overlay"><i class="fa-solid fa-clapperboard"></i></div>
+                        </div>
+                        <div class="service-info">
+                            <h3>إنتاج الفيديوهات الكرتونية والقصص</h3>
+                            <p>إنتاج فيديوهات رسوم متحركة (Animation) تعليمية وتوعوية وإعلانية، بشخصيات كرتونية مميزة وحركة سلسة تروي قصتك بذكاء وتجذب جمهورك المستهدف.</p>
+                            <div class="service-footer">
+                                <button class="btn btn-sm btn-gradient trigger-modal-btn" data-service="cartoon" id="service-btn-cartoon">طلب الخدمة <i class="fa-solid fa-chevron-left"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 5: UGC & Video Ads -->
+                    <div class="service-card" data-aos="fade-up">
+                        <div class="service-img-wrapper">
+                            <img src="اغلفة الخدمات على خمسات/غلاف خدمة الاعلانات وال.png" alt="فيديوهات UGC وإعلانات" class="service-img">
+                            <div class="service-icon-overlay"><i class="fa-solid fa-rectangle-ad"></i></div>
+                        </div>
+                        <div class="service-info">
+                            <h3>فيديوهات تسويقية وإعلانات UGC</h3>
+                            <p>تصميم وإخراج فيديوهات تسويقية جذابة وإعلانات UGC (محتوى ينشئه المستخدم) طبيعية ومقنعة، مصممة خصيصاً لمواقع التواصل لرفع نسب المبيعات والتفاعل.</p>
+                            <div class="service-footer">
+                                <button class="btn btn-sm btn-gradient trigger-modal-btn" data-service="ugc" id="service-btn-ugc">طلب الخدمة <i class="fa-solid fa-chevron-left"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 6: Kids Books -->
+                    <div class="service-card" data-aos="fade-up">
+                        <div class="service-img-wrapper">
+                            <img src="اغلفة الخدمات على خمسات/غلاف خدمة عمل كتب تعليمية.jpeg" alt="تصميم كتب أطفال" class="service-img">
+                            <div class="service-icon-overlay"><i class="fa-solid fa-book-open-reader"></i></div>
+                        </div>
+                        <div class="service-info">
+                            <h3>تصميم كتب الأطفال والقصص والتلوين</h3>
+                            <p>رسم وتصميم كتب أطفال وقصص تفاعلية، كتب تلوين، ومناهج تعليمية جذابة بصرياً تشد خيال الطفل وتساعده على الاستيعاب بمتعة وبساطة.</p>
+                            <div class="service-footer">
+                                <button class="btn btn-sm btn-gradient trigger-modal-btn" data-service="books" id="service-btn-books">طلب الخدمة <i class="fa-solid fa-chevron-left"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-title">سابقة أعمالي</span>
+                    <h2 class="main-title">معرض الأعمال الإبداعية</h2>
+                    <p class="section-desc">شاهد نماذج من المشاريع والأعمال التي قمت بتنفيذها لعملائي حول العالم في مختلف المجالات الإبداعية والتقنية.</p>
+                </div>
+
+                <!-- Filters -->
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">الكل</button>
+                    <button class="filter-btn" data-filter="web-apps">المواقع والتطبيقات</button>
+                    <button class="filter-btn" data-filter="games">الألعاب التعليمية</button>
+                    <button class="filter-btn" data-filter="cartoon">الفيديوهات الكرتونية</button>
+                    <button class="filter-btn" data-filter="ugc">فيديوهات UGC وإعلانات</button>
+                    <button class="filter-btn" data-filter="books">كتب الأطفال</button>
+                </div>
+
+                <!-- Portfolio Grid -->
+                <div class="portfolio-grid" id="portfolio-grid">
+                    
+                    <!-- Item 1: UGC Shampoo (ugc) -->
+                    <div class="portfolio-item card-item" data-category="ugc">
+                        <div class="item-media">
+                            <img src="صور للخدمات/صور خدمة الugc2.png" alt="إعلان شامبو UGC">
+                            <div class="media-overlay">
+                                <button class="play-video-btn" data-video-id="Augg_zSs6N4" aria-label="Play video">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">إعلان UGC</span>
+                            <h3>فيديو إعلان شامبو طبيعي</h3>
+                            <p>تصميم وإخراج فيديو UGC تسويقي لمنتج شامبو للشعر يبرز الفوائد والنتائج بطريقة تفاعلية ومبيعة.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 2: UGC Serum (ugc) -->
+                    <div class="portfolio-item card-item" data-category="ugc">
+                        <div class="item-media">
+                            <img src="صور للخدمات/صور خدمة الugc.png" alt="إعلان سيروم بشرة UGC">
+                            <div class="media-overlay">
+                                <button class="play-video-btn" data-video-id="CcEZjvlaTbw" aria-label="Play video">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">إعلان UGC</span>
+                            <h3>فيديو إعلان سيروم للبشرة</h3>
+                            <p>فيديو تسويقي إبداعي لنوع سيروم للبشرة يركز على طريقة الاستخدام والفوائد لزيادة المبيعات.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 3: Cartoon 1 (cartoon) -->
+                    <div class="portfolio-item card-item" data-category="cartoon">
+                        <div class="item-media">
+                            <img src="https://img.youtube.com/vi/bP09ntO_2LE/hqdefault.jpg" alt="فيديو كرتوني تعليمي للأطفال">
+                            <div class="media-overlay">
+                                <button class="play-video-btn" data-video-id="bP09ntO_2LE" aria-label="Play video">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">رسوم متحركة</span>
+                            <h3>فيديو كرتوني تعليمي للأطفال</h3>
+                            <p>تصميم شخصيات كرتونية مميزة وتحريكها لخدمة هدف تعليمي بطريقة مبسطة وشيقة للطفل.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 4: Cartoon 2 (cartoon) -->
+                    <div class="portfolio-item card-item" data-category="cartoon">
+                        <div class="item-media">
+                            <img src="https://img.youtube.com/vi/RDG328utyXY/hqdefault.jpg" alt="فيديو موشن جرافيك كرتوني">
+                            <div class="media-overlay">
+                                <button class="play-video-btn" data-video-id="RDG328utyXY" aria-label="Play video">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">رسوم متحركة</span>
+                            <h3>فيديو موشن جرافيك كرتوني</h3>
+                            <p>قصة كرتونية شيقة من تصميمي وحركتي بالكامل تساهم في إيصال الفكرة بصورة ممتازة.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 5: Cartoon 3 (cartoon) -->
+                    <div class="portfolio-item card-item" data-category="cartoon">
+                        <div class="item-media">
+                            <img src="https://img.youtube.com/vi/TsL-W8PCbtk/hqdefault.jpg" alt="فيديو أنيميشن هادف للأطفال">
+                            <div class="media-overlay">
+                                <button class="play-video-btn" data-video-id="TsL-W8PCbtk" aria-label="Play video">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">رسوم متحركة</span>
+                            <h3>فيديو أنيميشن هادف للأطفال</h3>
+                            <p>عمل كرتوني متكامل مع تحريك سلس وشخصيات لطيفة وملونة مناسبة للأطفال في سن الروضة.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 6: Cartoon 4 (cartoon) -->
+                    <div class="portfolio-item card-item" data-category="cartoon">
+                        <div class="item-media">
+                            <img src="https://img.youtube.com/vi/22MzUv9yyC0/hqdefault.jpg" alt="أغنية أطفال كرتونية">
+                            <div class="media-overlay">
+                                <button class="play-video-btn" data-video-id="22MzUv9yyC0" aria-label="Play video">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">رسوم متحركة</span>
+                            <h3>أغنية أطفال كرتونية</h3>
+                            <p>إنتاج فيديو أغنية أطفال كرتونية لطيفة ومسلية ("آيس كريم") بألوان زاهية ورسومات مبهجة وحركة سلسة تناسب الصغار.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 7: Cartoon 5 (cartoon) -->
+                    <div class="portfolio-item card-item" data-category="cartoon">
+                        <div class="item-media">
+                            <img src="https://img.youtube.com/vi/lJMLFAkMlPU/hqdefault.jpg" alt="فيديو كارتون تعليمي ترفيهي">
+                            <div class="media-overlay">
+                                <button class="play-video-btn" data-video-id="lJMLFAkMlPU" aria-label="Play video">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">رسوم متحركة</span>
+                            <h3>فيديو كارتون تعليمي ترفيهي</h3>
+                            <p>فيديو قصير يعرض مهارة حركية أو تعليمية للطفل برسم مميز وخلفيات مبهجة.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 8: Game 1 (games) -->
+                    <div class="portfolio-item card-item" data-category="games">
+                        <div class="item-media">
+                            <img src="صور الالعاب/1.jpg" alt="لعبة Help the Girl">
+                            <div class="media-overlay">
+                                <a href="https://edugame1.github.io/help-the-girl/" target="_blank" class="view-project-btn" rel="noopener"><i class="fa-solid fa-gamepad"></i> تجربة اللعبة</a>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">ألعاب تعليمية</span>
+                            <h3>اللعبة الأولى (Help the Girl)</h3>
+                            <p>لعبة ذكاء وتحدي للأطفال تعتمد على اتخاذ القرارات وحل المشكلات لإنقاذ الفتاة من المواقف الصعبة.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 9: Game 2 (games) -->
+                    <div class="portfolio-item card-item" data-category="games">
+                        <div class="item-media">
+                            <img src="صور الالعاب/2.jpg" alt="لعبة Alcohol">
+                            <div class="media-overlay">
+                                <a href="https://edugame1.github.io/alcohol/" target="_blank" class="view-project-btn" rel="noopener"><i class="fa-solid fa-gamepad"></i> تجربة اللعبة</a>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">ألعاب تعليمية</span>
+                            <h3>اللعبة الثانية (Alcohol)</h3>
+                            <p>لعبة توعوية تعليمية تفاعلية للأطفال واليافعين تشرح الآثار الصحية بشكل تفاعلي مسلٍ.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 10: Game 3 (games) -->
+                    <div class="portfolio-item card-item" data-category="games">
+                        <div class="item-media">
+                            <img src="صور الالعاب/3.jpg" alt="لعبة العب وتعلم">
+                            <div class="media-overlay">
+                                <a href="https://playandlearn12.github.io/game/" target="_blank" class="view-project-btn" rel="noopener"><i class="fa-solid fa-gamepad"></i> تجربة اللعبة</a>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">ألعاب تعليمية</span>
+                            <h3>اللعبة الثالثة (Play and Learn)</h3>
+                            <p>مجموعة من الألعاب التعليمية والمسابقات الموجهة لزيادة الحصيلة المعرفية واللغوية للطفل بأسلوب تنافسي شيق.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 17: Game 4 (games) -->
+                    <div class="portfolio-item card-item" data-category="games">
+                        <div class="item-media">
+                            <img src="صور الالعاب/4.jpg" alt="لعبة Maze">
+                            <div class="media-overlay">
+                                <a href="https://edugame2.github.io/maze/#data=W3sidGl0bGUiOiLYp9mE2YXYsdit2YTYqSDYp9mE2KPZiNmE2Yk6INij2YbYuNixINmI2KPYudio2LEiLCJnYW1lVXJsIjoiaHR0cHM6Ly93b3Jkd2FsbC5uZXQvcGxheS8xMDIwOTUvNDUyLzIxMCJ9LHsidGl0bGUiOiLYp9mE2YXYsdit2YTYqSDYp9mE2KvYp9mG2YrYqTog2KPYs9mF2Ykg2KfZhNit2YrZiNin2YYiLCJnYW1lVXJsIjoiaHR0cHM6Ly93b3Jkd2FsbC5uZXQvcGxheS8xMDIwOTUvNDUyLzIxMCJ9LHsidGl0bGUiOiLYp9mE2YXYsdit2YTYqSDYp9mE2KvYp9mE2KvYqTog2KfZhNmF2LfYp9io2YLYqSIsImdhbWVVcmwiOiJodHRwczovL3dvcmR3YWxsLm5ldC9wbGF5LzEwMjA5NS83NzYvNzI0In1d" target="_blank" class="view-project-btn" rel="noopener"><i class="fa-solid fa-gamepad"></i> تجربة اللعبة</a>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">ألعاب تعليمية</span>
+                            <h3>اللعبة الرابعة (Maze)</h3>
+                            <p>لعبة متاهة تفاعلية شيقة تهدف لتدريب الأطفال على المفاهيم اللغوية والتعليمية بشكل مسلٍ ومبتكر.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 18: Game 5 (games) -->
+                    <div class="portfolio-item card-item" data-category="games">
+                        <div class="item-media">
+                            <img src="صور الالعاب/5.jpg" alt="لعبة Science Game">
+                            <div class="media-overlay">
+                                <a href="https://game1-dev.github.io/sciencegame/" target="_blank" class="view-project-btn" rel="noopener"><i class="fa-solid fa-gamepad"></i> تجربة اللعبة</a>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">ألعاب تعليمية</span>
+                            <h3>اللعبة الخامسة (Science Game)</h3>
+                            <p>لعبة تعليمية تفاعلية مخصصة لمادة العلوم، تساعد الطلاب على استكشاف المفاهيم العلمية بطريقة مبسطة وتفاعلية.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 19: Game 6 (games) -->
+                    <div class="portfolio-item card-item" data-category="games">
+                        <div class="item-media">
+                            <img src="صور الالعاب/6.jpg" alt="لعبة Play and Learn 2">
+                            <div class="media-overlay">
+                                <a href="https://playandlearn12.github.io/2/" target="_blank" class="view-project-btn" rel="noopener"><i class="fa-solid fa-gamepad"></i> تجربة اللعبة</a>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">ألعاب تعليمية</span>
+                            <h3>اللعبة السادسة (Play and Learn 2)</h3>
+                            <p>الجزء الثاني من لعبة العب وتعلم، ويحتوي على أنشطة ومسابقات تعليمية جديدة وممتعة لزيادة مهارات الأطفال.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 20: Game 7 (games) -->
+                    <div class="portfolio-item card-item" data-category="games">
+                        <div class="item-media">
+                            <img src="صور الالعاب/7.jpg" alt="لعبة Bostan El Adad">
+                            <div class="media-overlay">
+                                <a href="https://bostaneladad5.github.io/game/game.html" target="_blank" class="view-project-btn" rel="noopener"><i class="fa-solid fa-gamepad"></i> تجربة اللعبة</a>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">ألعاب تعليمية</span>
+                            <h3>اللعبة السابعة (Bostan El Adad)</h3>
+                            <p>لعبة بستان الأعداد لتعليم الرياضيات والأرقام بطريقة تفاعلية للأطفال عبر قطف الأرقام وحل العمليات الحسابية البسيطة.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 21: Game 8 (games) -->
+                    <div class="portfolio-item card-item" data-category="games">
+                        <div class="item-media">
+                            <img src="صور الالعاب/8.jpg" alt="لعبة Addition of Integers">
+                            <div class="media-overlay">
+                                <a href="https://games232.github.io/Addition-of-integers2/" target="_blank" class="view-project-btn" rel="noopener"><i class="fa-solid fa-gamepad"></i> تجربة اللعبة</a>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">ألعاب تعليمية</span>
+                            <h3>اللعبة الثامنة (Addition of Integers)</h3>
+                            <p>لعبة تعليمية تفاعلية مصممة لمساعدة الطلاب على فهم وإتقان عملية جمع الأعداد الصحيحة بسهولة ومرح.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 11: Web Course (web-apps) -->
+                    <div class="portfolio-item card-item" data-category="web-apps">
+                        <div class="item-media">
+                            <img src="صور للخدمات/صور خدمة المواقع.png" alt="موقع مهارة للكورسات">
+                            <div class="media-overlay">
+                                <a href="https://0project0.github.io/mahara/" target="_blank" class="view-project-btn" rel="noopener"><i class="fa-solid fa-up-right-from-square"></i> معاينة الموقع</a>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">مواقع ويب</span>
+                            <h3>موقع مهارة (منصة تعليمية)</h3>
+                            <p>تصميم وتطوير واجهة منصة كورسات وتعليم إلكتروني عصرية، تتميز بالتنقل السلس والتقسيم المنظم للدورات.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 12: Web Sherine (web-apps) -->
+                    <div class="portfolio-item card-item" data-category="web-apps">
+                        <div class="item-media">
+                            <img src="صور للخدمات/تصميم مواقع شخصية.png" alt="تصميم مواقع شخصية">
+                            <div class="media-overlay">
+                                <a href="#hero" class="view-project-btn"><i class="fa-solid fa-house"></i> عرض الموقع الحالي</a>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">موقع ويب</span>
+                            <h3>تصميم مواقع شخصية</h3>
+                            <p>تصميم وتطوير موقع شخصي متكامل لعرض مميز واحترافي للخدمات الإبداعية لجذب العملاء (هذا الموقع الحالي هو نموذج العمل).</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 13: Web Coffee (web-apps) -->
+                    <div class="portfolio-item card-item" data-category="web-apps">
+                        <div class="item-media">
+                            <img src="صور للخدمات/صور خدمة المواقع 1 موقع 2.png" alt="صفحة هبوط نوبة قهوة">
+                            <div class="media-overlay">
+                                <a href="https://0project0.github.io/nawba/" target="_blank" class="view-project-btn" rel="noopener"><i class="fa-solid fa-up-right-from-square"></i> معاينة الموقع</a>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">موقع ويب</span>
+                            <h3>صفحة هبوط براند قهوة نوبة</h3>
+                            <p>تصميم راقٍ وجذاب لصفحة هبوط خاصة ببراند قهوة مختصة، يركز على تقديم المنتجات بصورة ممتعة بصرياً لزيادة الطلب.</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 14: App Restaurant (web-apps) -->
+                    <div class="portfolio-item card-item" data-category="web-apps">
+                        <div class="item-media">
+                            <img src="صور للخدمات/صور خدمة التطبيقات تطبيق 1.png" alt="تطبيق مطعم">
+                            <div class="media-overlay">
+                                <a href="https://0project0.github.io/restaurant-/" target="_blank" class="view-project-btn" rel="noopener"><i class="fa-solid fa-up-right-from-square"></i> تجربة واجهة التطبيق</a>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">تطبيقات جوال</span>
+                            <h3>تطبيق طلبات المطاعم</h3>
+                            <p>تصميم تطبيق متكامل لطلبات المطاعم وتوصيل المأكولات (النسخة المعروضة لتجربة واجهات المستخدم التفاعلية فقط).</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 15: App Quran (web-apps) -->
+                    <div class="portfolio-item card-item" data-category="web-apps">
+                        <div class="item-media">
+                            <img src="صور للخدمات/صور خدمة التطبيقات 1 تطبيق 2.png" alt="تطبيق قرآن كريم">
+                            <div class="media-overlay">
+                                <a href="https://0project0.github.io/quran/" target="_blank" class="view-project-btn" rel="noopener"><i class="fa-solid fa-up-right-from-square"></i> تجربة واجهة التطبيق</a>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">تطبيقات جوال</span>
+                            <h3>تطبيق القرآن الكريم</h3>
+                            <p>تصميم تطبيق متكامل للقرآن الكريم مع فهرس وتصفح سريع (النسخة المعروضة لتجربة واجهات المستخدم التفاعلية فقط).</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 16: Kids Books (books) -->
+                    <div class="portfolio-item card-item" data-category="books">
+                        <div class="item-media">
+                            <img src="صور للخدمات/صور خدمة كتب تعليمية 1.png" alt="كتاب تلوين وقصص تفاعلية للأطفال">
+                            <div class="media-overlay">
+                                <button class="zoom-image-btn" data-images="صور للخدمات/صور خدمة كتب تعليمية 1.png,صور للخدمات/صور خدمة كتب تعليمية 2.png,صور للخدمات/صور خدمة كتب تعليمية 3.png" aria-label="Zoom gallery">
+                                    <i class="fa-solid fa-images"></i> تصفح صفحات الكتاب
+                                </button>
+                            </div>
+                        </div>
+                        <div class="item-details">
+                            <span class="item-tag">كتب وقصص أطفال</span>
+                            <h3>كتاب تلوين وقصة كرتونية تفاعلية للأطفال</h3>
+                            <p>تصميم ورسم كتاب أطفال متكامل يشمل صفحات تلوين ومناهج تعليمية تنمي مهارات الصغار في قالب شيق (اضغط على "تصفح صفحات الكتاب" لاستعراض جميع الصفحات).</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews & Testimonials Section -->
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-title">آراء شركاء النجاح</span>
+                    <h2 class="main-title">تقييمات عملائنا في خمسات</h2>
+                    <p class="section-desc">أعتز بكل رأي يكتبه عملائي، وهو الدافع الأكبر لي لتقديم الأفضل دائماً بجودة وسرعة تليق بثقتهم.</p>
+                </div>
+
+                <!-- Testimonials Showcase -->
+                <div class="testimonials-wrapper">
+                    <!-- General Rating Stats -->
+                    <div class="rating-stats-card">
+                        <div class="rating-number">5.0</div>
+                        <div class="rating-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="rating-text">التقييم العام للخدمات في خمسات (★★★★★)</div>
+                        
+                        <div class="rating-details">
+                            <div class="rating-detail-item">
+                                <span>جودة الخدمة</span>
+                                <div class="stars-row"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            </div>
+                            <div class="rating-detail-item">
+                                <span>التواصل والمتابعة</span>
+                                <div class="stars-row"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            </div>
+                            <div class="rating-detail-item">
+                                <span>التسليم بالموعد</span>
+                                <div class="stars-row"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review Cards Slider Container -->
+                    <div class="reviews-slider-container">
+                        <div class="reviews-track" id="reviews-track">
+                            <!-- Review 1 -->
+                            <div class="review-slide active">
+                                <div class="review-header">
+                                    <div class="client-avatar">D</div>
+                                    <div class="client-info">
+                                        <h4>Doctor M.</h4>
+                                        <span>خدمة الفيديوهات الكرتونية</span>
+                                    </div>
+                                    <div class="slide-stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="review-content">"خدمة احترافية وسريعة! الرسومات جميلة والحركة سلسة جدًا، باين إن فيه احترافية في التنفيذ. كانت متعاونة جدًا وفهمت المطلوب بسرعة ونفذته بدقة. التسليم كان أسرع من المتوقع بدون أي تأثير على الجودة. خدمة ممتازة وأنصح أي حد عاوز أنيميشن احترافي إنه يتعامل معاها."</p>
+                            </div>
+
+                            <!-- Review 2 -->
+                            <div class="review-slide">
+                                <div class="review-header">
+                                    <div class="client-avatar">R</div>
+                                    <div class="client-info">
+                                        <h4>Reem H.</h4>
+                                        <span>خدمة الألعاب التعليمية</span>
+                                    </div>
+                                    <div class="slide-stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="review-content">"أفضل خدمة في خمسات! أستاذة شيرين رائعة، مبدعة، إنجاز سريع وفي وقت قياسي وبأعلى جودة. رابع تجربة لي معها وكل مرة تبهرني بإبداعها."</p>
+                            </div>
+
+                            <!-- Review 3 -->
+                            <div class="review-slide">
+                                <div class="review-header">
+                                    <div class="client-avatar">ع</div>
+                                    <div class="client-info">
+                                        <h4>علياء ع.</h4>
+                                        <span>عميلة على خمسات</span>
+                                    </div>
+                                    <div class="slide-stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="review-content">"محترفة ودقيقة ومتعاونة، أنصحكم بشدة على التعامل معها."</p>
+                            </div>
+
+                            <!-- Review 4 -->
+                            <div class="review-slide">
+                                <div class="review-header">
+                                    <div class="client-avatar">E</div>
+                                    <div class="client-info">
+                                        <h4>Eslam A.</h4>
+                                        <span>خدمة الفيديوهات الكرتونية</span>
+                                    </div>
+                                    <div class="slide-stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="review-content">"شكرًا جدًا ومبسوط إن احنا تعاونا مع بعض كتير الفترة الماضية، وإن شاء الله نتعاون مرات تانية كتير في المستقبل."</p>
+                            </div>
+
+                            <!-- Review 5 -->
+                            <div class="review-slide">
+                                <div class="review-header">
+                                    <div class="client-avatar">T</div>
+                                    <div class="client-info">
+                                        <h4>Tktak A.</h4>
+                                        <span>خدمة الفيديوهات الكرتونية</span>
+                                    </div>
+                                    <div class="slide-stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="review-content">"بصراحة اجتهاد وتفنن في الإبداع وسرعة تبارك الله وتركيز عالي."</p>
+                            </div>
+
+                            <!-- Review 6 -->
+                            <div class="review-slide">
+                                <div class="review-header">
+                                    <div class="client-avatar">A</div>
+                                    <div class="client-info">
+                                        <h4>Abdullah A.</h4>
+                                        <span>عميل على خمسات</span>
+                                    </div>
+                                    <div class="slide-stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="review-content">"متعاونة جدًا وسريعة بالعمل وتقبل الملاحظات."</p>
+                            </div>
+
+                            <!-- Review 7 -->
+                            <div class="review-slide">
+                                <div class="review-header">
+                                    <div class="client-avatar">W</div>
+                                    <div class="client-info">
+                                        <h4>Waleed M.</h4>
+                                        <span>خدمة الفيديوهات الكرتونية</span>
+                                    </div>
+                                    <div class="slide-stars">
+                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="review-content">"عمل رائع وجميل ونتمنى لكم النجاح في جميع أعمالكم الإبداعية."</p>
+                            </div>
+                        </div>
+
+                        <!-- Slider Controls -->
+                        <div class="slider-controls">
+                            <button class="slider-btn prev-btn" id="prev-review" aria-label="Previous review"><i class="fa-solid fa-chevron-right"></i></button>
+                            <div class="slider-dots" id="slider-dots">
+                                <!-- dots will be injected by js -->
+                            </div>
+                            <button class="slider-btn next-btn" id="next-review" aria-label="Next review"><i class="fa-solid fa-chevron-left"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA & Contact Section -->
+        <section id="contact-section" class="contact-section">
+            <div class="container contact-container">
+                <div class="contact-card">
+                    <div class="contact-info">
+                        <h2>تبحث عن تنفيذ مشروع إبداعي مميز؟</h2>
+                        <p>تواصل معي الآن لنناقش تفاصيل فكرتك، ونحولها إلى مشروع حقيقي باحترافية وجودة عالية تلبي طموحاتك.</p>
+                        <div class="contact-methods">
+                            <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=khamsatprojects@gmail.com" target="_blank" class="contact-method-item" rel="noopener">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>khamsatprojects@gmail.com</span>
+                            </a>
+                            <a href="https://www.instagram.com/shereensedik1/" target="_blank" class="contact-method-item" rel="noopener">
+                                <i class="fa-brands fa-instagram"></i>
+                                <span>@shereensedik1</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-actions">
+                        <button class="btn btn-xl btn-gradient trigger-modal-btn" data-service="general" id="contact-cta-btn">
+                            <i class="fa-solid fa-message"></i> اطلب الخدمة أو تواصل معي
+                        </button>
+                        <div class="freelance-profiles">
+                            <a href="https://khamsat.com/user/shereen_ahmed86" target="_blank" class="profile-badge" rel="noopener">
+                                <i class="fa-solid fa-shop"></i> ملفي في خمسات
+                            </a>
+                            <a href="https://mostaql.com/u/shereen_ahmed86" target="_blank" class="profile-badge" rel="noopener">
+                                <i class="fa-solid fa-user-tie"></i> ملفي في مستقل
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <h3>شيرين <span>صديق</span></h3>
+                <p>خدمات إبداعية متكاملة تجمع بين الجودة والتفرد لتوصيل رسالتك بأحسن شكل.</p>
+            </div>
+            <div class="footer-links">
+                <h4>روابط سريعة</h4>
+                <ul>
+                    <li><a href="#hero">الرئيسية</a></li>
+                    <li><a href="#services">خدماتي</a></li>
+                    <li><a href="#portfolio">معرض أعمالي</a></li>
+                    <li><a href="#testimonials">آراء العملاء</a></li>
+                </ul>
+            </div>
+            <div class="footer-socials">
+                <h4>تابعني على</h4>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/shereensedik1/" target="_blank" aria-label="Instagram" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@Meswadda1" target="_blank" aria-label="YouTube" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://khamsat.com/user/shereen_ahmed86" target="_blank" aria-label="Khamsat" rel="noopener"><i class="fa-solid fa-shop"></i></a>
+                    <a href="https://mostaql.com/u/shereen_ahmed86" target="_blank" aria-label="Mostaql" rel="noopener"><i class="fa-solid fa-user-tie"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>جميع الحقوق محفوظة &copy; 2026 | تصميم وتنفيذ شيرين صديق</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Contact/Order Modal -->
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal-btn" id="close-modal" aria-label="Close modal">&times;</button>
+            <div class="modal-header">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <h3 id="modal-title">ابدأ مشروعك الإبداعي الآن</h3>
+                <p id="modal-desc">يسعدني جداً اهتمامك! يمكنك اختيار الوسيلة الأنسب لك للطلب أو الاستفسار:</p>
+            </div>
+            <div class="modal-body">
+                <!-- Option 1: Khamsat -->
+                <a href="#" id="modal-khamsat-btn" target="_blank" class="modal-option-card option-khamsat" rel="noopener">
+                    <div class="option-icon"><i class="fa-solid fa-shop"></i></div>
+                    <div class="option-info">
+                        <h4>الذهاب إلى الخدمة على خمسات</h4>
+                        <p>اطلب الخدمة بضمان منصة خمسات التابعة لحسوب بشكل آمن واحترافي.</p>
+                    </div>
+                    <div class="option-arrow"><i class="fa-solid fa-chevron-left"></i></div>
+                </a>
+
+                <!-- Option 2: Instagram Direct -->
+                <a href="https://ig.me/m/shereensedik1" target="_blank" class="modal-option-card option-instagram" rel="noopener">
+                    <div class="option-icon"><i class="fa-brands fa-instagram"></i></div>
+                    <div class="option-info">
+                        <h4>التواصل الفوري على انستجرام</h4>
+                        <p>راسلني مباشرة على حسابي لمناقشة التفاصيل وتحديد خطة العمل المناسبة.</p>
+                    </div>
+                    <div class="option-arrow"><i class="fa-solid fa-chevron-left"></i></div>
+                </a>
+
+                <!-- Option 3: Gmail -->
+                <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=khamsatprojects@gmail.com" target="_blank" class="modal-option-card option-email" rel="noopener">
+                    <div class="option-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="option-info">
+                        <h4>مراسلة عبر البريد الإلكتروني</h4>
+                        <p>أرسل لي ملفات وتفاصيل مشروعك مباشرة على بريدي الإلكتروني.</p>
+                    </div>
+                    <div class="option-arrow"><i class="fa-solid fa-chevron-left"></i></div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox for Video Playing -->
+    <div id="video-modal" class="modal video-modal-lightbox">
+        <div class="video-modal-content">
+            <button class="close-modal-btn" id="close-video-modal" aria-label="Close video modal">&times;</button>
+            <div class="video-container-iframe">
+                <iframe id="video-iframe" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox for Image Zooming -->
+    <div id="image-modal" class="modal image-modal-lightbox">
+        <div class="image-modal-content">
+            <button class="close-modal-btn" id="close-image-modal" aria-label="Close image modal">&times;</button>
+            <button class="gallery-nav-btn prev-image-btn" id="prev-image" aria-label="Previous image"><i class="fa-solid fa-chevron-right"></i></button>
+            <img id="zoomed-image" src="" alt="شاشة مكبرة">
+            <button class="gallery-nav-btn next-image-btn" id="next-image" aria-label="Next image"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="gallery-counter" id="gallery-counter">1 / 1</div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
